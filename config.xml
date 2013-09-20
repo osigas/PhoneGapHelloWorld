@@ -7,17 +7,14 @@
     <author email="osiris.chris@gmail.com" href="http://osidevelopment.co.uk">
         Chris Brown
     </author>
-    <feature name="http://api.phonegap.com/1.0/device" />
-    <feature name="http://api.phonegap.com/1.0/network" />
-    <feature name="http://api.phonegap.com/1.0/geolocation" />
-    <feature name="http://api.phonegap.com/1.0/file" />
-    <feature name="http://api.phonegap.com/1.0/camera" />
-    <feature name="http://api.phonegap.com/1.0/media" />
-    <feature name="http://api.phonegap.com/1.0/battery" />
-    <feature name="http://api.phonegap.com/1.0/camera" />
-    <feature name="http://api.phonegap.com/1.0/contacts" />
-    <feature name="http://api.phonegap.com/1.0/notification" />
-    <feature name="http://api.phonegap.com/1.0/accelerometer" />  
+    <feature name="http://api.phonegap.com/1.0/battery"/>
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/> 
   
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
@@ -62,5 +59,5 @@
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
   
     <access origin="http://127.0.0.1*" />
-    <access origin=" http://debug.build.phonegap.com*" />
+    <access origin="http://phonegap.com" subdomains="true" />
 </widget>
