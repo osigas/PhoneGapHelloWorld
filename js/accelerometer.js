@@ -37,10 +37,10 @@ var content = {
             _z = document.getElementById('accelerometer-z'),
             _timestamp = document.getElementById('timestamp');
 
-        _x.value = acceleration.x;
-        _y.value = acceleration.y;
-        _z.value = acceleration.z;
-        _timestamp.value = acceleration.timestamp;
+        _x.setAttribute("value", acceleration.x);
+        _y.setAttribute("value", acceleration.y);
+        _z.setAttribute("value", acceleration.z);
+        _timestamp.setAttribute("value", acceleration.timestamp);
     },
 
     // onError: Failed to get the acceleration
