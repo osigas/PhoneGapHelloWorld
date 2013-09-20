@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.hroc.employeedirectory" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>EmployeeDirectory</name>
+<widget id="com.osigas.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>PhoneGap Hello World</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Hello World sample application that shows off some PhoneGap API features.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="osiris.chris@gmail.com" href="http://osidevelopment.co.uk">
+        Chris Brown
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="http://api.phonegap.com/1.0/network" />
